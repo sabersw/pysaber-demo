@@ -181,13 +181,13 @@ least_squares_deblur(norm_rad, sod, sdd, pix_wid, src_params, det_params, reg_pa
 ```
 
 ## Authors
-[K. Aditya Mohan](https://github.com/adityamnk)
+* [K. Aditya Mohan](https://github.com/adityamnk)
 
 
 ## Acknowledgements
 The following people contributed to the theoretical formulation and experimental validation of SABER -
-    Robert M. Panas
-    Jefferson A. Cuadra
+* Robert M. Panas
+* Jefferson A. Cuadra
 
 
 ## Bug Reports & Feedback
