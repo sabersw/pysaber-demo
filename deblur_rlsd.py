@@ -42,6 +42,6 @@ y = np.arange(-(sz[0]//2),(sz[0]//2)+1,1)*pix_wid/mag
 plt.pcolormesh(x,y,rlsd_rad,cmap='gray')
 plt.xlabel('micrometers')
 plt.ylabel('micrometers')
-plt.title('Wiener deblur')
+plt.title('RLSD deblur')
 plt.colorbar()
 plt.show()
