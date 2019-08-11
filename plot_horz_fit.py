@@ -17,11 +17,11 @@ sod = 24751.89 #Source to object distance (SOD) of radiograph
 sdd = 71003.08 #Source to detector distance (SDD) of radiograph
 
 #Parameters of X-ray source blur
-src_params = {'source_FWHM_x_axis':2.70,'source_FWHM_y_axis':2.82,'cutoff_FWHM_multiplier':10}
+src_params = {'source_FWHM_x_axis':2.59, 'source_FWHM_y_axis':2.96, 'cutoff_FWHM_multiplier':10}
 #Parameters detector blur
-det_params = {'detector_FWHM_1':2.05,'detector_FWHM_2':120.72,'detector_weight_1':0.917,'cutoff_FWHM_1_multiplier':10,'cutoff_FWHM_2_multiplier':8}
+det_params = {'detector_FWHM_1':1.98, 'detector_FWHM_2':127.07, 'detector_weight_1':0.917, 'cutoff_FWHM_1_multiplier':10, 'cutoff_FWHM_2_multiplier':10}
 #Transmission function parameters
-trans_params = [0.016,0.979]
+trans_params = [0.015,0.979]
 
 #Get the blurry radiograph as predicted or output by the blur model
 _,pred_nrad = get_trans_fit(norm_rad,sod,sdd,pix_wid,src_params,det_params,trans_params)
